@@ -10,6 +10,16 @@ Once Golang is installed, you can build the xxl-job-tester executable by running
 ```Bash
 go build -o xxl-job-tester
 ```
+or, you can use Makefile to build the executable file by running the following command in the directory where the source code is located:
+
+```Bash
+make build-windows
+# or
+make build-linux
+# or
+make build-macos
+```
+
 
 This will create an executable file named `xxl-job-tester` in the current directory.
 
